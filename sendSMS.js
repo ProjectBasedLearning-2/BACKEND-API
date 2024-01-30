@@ -1,11 +1,11 @@
-const accountSid = "AC10395edccacdd0aa44adaee19d56ea9d";
-const authToken = "bec2984999f285b8e2de250507a18a64";
+const accountSid = "AC10395edccacdd0aa44adaee19dxxxx";
+const authToken = "bec2984999f285b8e2de250507a1xxxx";
 
 const client = require('twilio')(accountSid, authToken);
 const sendSMS = async (body)=>{
     let msgOptions = {
-        from: '+18644281430',
-        to: '+918830551393',
+        from: '+18644281xxx',
+        to: '+918830551xxx',
         body
     }
     try{
