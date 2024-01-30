@@ -15,12 +15,12 @@ const sendSMS = async (body)=>{
         console.log(error);
     }
 }
-const x = 660;
-if(x<600)
+const moisture = 660;
+if(moisture<600)
 {
-    sendSMS("Good Morning");
+    sendSMS("Irrigation sceduled 2 days after");
 }
 else
 {
-    sendSMS("Bad Morning")
+    sendSMS("Alert! Irigate it now !!");
 }
